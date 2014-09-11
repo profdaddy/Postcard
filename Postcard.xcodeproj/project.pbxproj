@@ -13,6 +13,8 @@
 		4728912D19C0C40E007F6422 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4728912C19C0C40E007F6422 /* Images.xcassets */; };
 		4728913019C0C40E007F6422 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4728912E19C0C40E007F6422 /* LaunchScreen.xib */; };
 		4728913C19C0C40E007F6422 /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4728913B19C0C40E007F6422 /* PostcardTests.swift */; };
+		4728914619C0C594007F6422 /* photo.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 4728914519C0C594007F6422 /* photo.JPG */; };
+		4728914819C0DAA9007F6422 /* Unknown.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4728914719C0DAA9007F6422 /* Unknown.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		4728913519C0C40E007F6422 /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4728913A19C0C40E007F6422 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4728913B19C0C40E007F6422 /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		4728914519C0C594007F6422 /* photo.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = photo.JPG; path = ../photo.JPG; sourceTree = "<group>"; };
+		4728914719C0DAA9007F6422 /* Unknown.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Unknown.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		4728912319C0C40E007F6422 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4728914519C0C594007F6422 /* photo.JPG */,
+				4728914719C0DAA9007F6422 /* Unknown.jpeg */,
 				4728912419C0C40E007F6422 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -194,7 +200,9 @@
 			files = (
 				4728912B19C0C40E007F6422 /* Main.storyboard in Resources */,
 				4728913019C0C40E007F6422 /* LaunchScreen.xib in Resources */,
+				4728914619C0C594007F6422 /* photo.JPG in Resources */,
 				4728912D19C0C40E007F6422 /* Images.xcassets in Resources */,
+				4728914819C0DAA9007F6422 /* Unknown.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
